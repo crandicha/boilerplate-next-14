@@ -7,16 +7,28 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
 1. Clone this repo
 
    ```bash
-   git clone git@github.com:crandicha/boilerplate-next-14.git
+   git clone git@github.com:crandicha/boilerplate-next-14.git <project-name>
    ```
 
-2. Install dependencies
+2. Go to the project directory
+
+   ```bash
+   cd <project-name>
+   ```
+
+3. Re-initiate git
+
+   ```bash
+   pnpm reinit
+   ```
+
+4. Install dependencies
 
    ```bash
    pnpm install
    ```
 
-3. Check optional packages (remove based on usage)
+5. Check optional packages (remove based on usage)
 
    - TailwindCSS (CSS framework) (automatically installed by create-next-app)
 
@@ -33,10 +45,10 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
    - React Query (data fetching) (not recommended to remove)
 
      ```bash
-       pnpm remove react-query
+     pnpm remove react-query
      ```
 
-4. Start the development server
+6. Start the development server
 
    ```bash
    pnpm run dev
@@ -47,4 +59,3 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
 - Jest
 - React Testing Library
 - Eslint testing library
-- Setup script / command to squash commits on new clone

@@ -13,7 +13,8 @@
     "format": "prettier . --write --ignore-path .gitignore",
     "type-check": "tsc --noEmit --pretty",
     "check-all": "pnpm lint && pnpm type-check && pnpm format",
-    "prepare": "husky"
+    "prepare": "husky",
+    "reinit": "rm -rf .git && git init && git add all && git commit -m 'Initial commit'"
   },
   "dependencies": {
     "axios": "^1.6.7",

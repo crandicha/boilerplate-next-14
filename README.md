@@ -23,6 +23,18 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
       ``` bash
       pnpm remove tailwindcss
       ```
+    - Zustand (state management)
+
+      ``` bash
+      pnpm remove zustand
+      ```
+
+    - React Query (data fetching) (not recommended to remove)
+
+      ``` bash
+        pnpm remove react-query
+        ```
+
 
 4. Start the development server
 

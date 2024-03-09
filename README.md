@@ -32,7 +32,6 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
 
 ## Todo
 
-- React Query
 - Add `husky` and `lint-staged` to run `prettier` and `eslint` and `commitlint` on commit
 - Jest
 - React Testing Library

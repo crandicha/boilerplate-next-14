@@ -1,10 +1,5 @@
 import type { AxiosError, AxiosRequestConfig } from 'axios'
 import axios from 'axios'
-import {
-  DEFAULT_HEADERS,
-  DEFAULT_QUERY_CONFIG,
-  paramsSerializer,
-} from 'config/api'
 import type {
   QueryKey,
   UseInfiniteQueryOptions,
@@ -14,6 +9,13 @@ import type {
   UseQueryResult,
 } from 'react-query'
 import { useInfiniteQuery, useMutation, useQuery } from 'react-query'
+
+import {
+  DEFAULT_HEADERS,
+  DEFAULT_QUERY_CONFIG,
+  paramsSerializer,
+} from 'configs/api'
+
 import type { APIResponse } from 'types/api'
 
 export type TQueryApiConfig<

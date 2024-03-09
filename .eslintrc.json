@@ -35,13 +35,13 @@
       "warn",
       {
         "groups": [
-          ["^@?\\w", "^\\u0000"],
-          ["^@lib", "^@utils", "^@hooks"],
-          ["^@components"],
-          ["^@store"],
-          ["^@configs"],
-          ["^@data"],
-          ["^@types"],
+          ["^\\w", "^\\u0000"],
+          ["^lib", "^utils", "^hooks"],
+          ["^components"],
+          ["^store"],
+          ["^configs"],
+          ["^data"],
+          ["^types"],
           ["public/"],
           ["^.+\\.s?css$"],
           [

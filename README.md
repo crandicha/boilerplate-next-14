@@ -6,45 +6,44 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
 
 1. Clone this repo
 
-    ``` bash
-    git clone git@github.com:crandicha/boilerplate-next-14.git
-    ```
+   ```bash
+   git clone git@github.com:crandicha/boilerplate-next-14.git
+   ```
 
 2. Install dependencies
 
-    ``` bash
-    pnpm install
-    ```
+   ```bash
+   pnpm install
+   ```
 
 3. Check optional packages (remove based on usage)
 
-    - TailwindCSS (CSS framework) (automatically installed by create-next-app)
+   - TailwindCSS (CSS framework) (automatically installed by create-next-app)
 
-      ``` bash
-      pnpm remove tailwindcss
-      ```
-    - Zustand (state management)
+     ```bash
+     pnpm remove tailwindcss
+     ```
 
-      ``` bash
-      pnpm remove zustand
-      ```
+   - Zustand (state management)
 
-    - React Query (data fetching) (not recommended to remove)
+     ```bash
+     pnpm remove zustand
+     ```
 
-      ``` bash
-        pnpm remove react-query
-        ```
+   - React Query (data fetching) (not recommended to remove)
 
+     ```bash
+       pnpm remove react-query
+     ```
 
 4. Start the development server
 
-    ``` bash
-    pnpm run dev
-    ```
+   ```bash
+   pnpm run dev
+   ```
 
 ## Todo
 
-- Add `husky` and `lint-staged` to run `prettier` and `eslint` and `commitlint` on commit
 - Jest
 - React Testing Library
 - Eslint testing library

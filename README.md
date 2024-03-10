@@ -53,9 +53,3 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
    ```bash
    pnpm run dev
    ```
-
-## Todo
-
-- Jest
-- React Testing Library
-- Eslint testing library

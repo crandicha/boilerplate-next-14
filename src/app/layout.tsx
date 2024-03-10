@@ -3,13 +3,12 @@ import { Inter } from 'next/font/google'
 
 import ReactQueryClientProvider from 'components/ReactQueryClientProvider'
 
+import { BASE_URL } from 'configs/env'
+import { ICON_SIZES } from 'configs/icon'
+
 import './globals.scss'
 
 const inter = Inter({ subsets: ['latin'] })
-
-const ICONS_SIZES = [72, 96, 128, 144, 152, 192, 384, 512]
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
 
 export const metadata: Metadata = {
   title: {
@@ -26,12 +25,12 @@ export const metadata: Metadata = {
     },
   ],
   icons: [
-    ...ICONS_SIZES.map((size) => ({
+    ...ICON_SIZES.map((size) => ({
       url: `${BASE_URL}/images/icons/icon-${size}x${size}.png`,
       sizes: `${size}x${size}`,
       rel: 'apple-touch-icon',
     })),
-    ...ICONS_SIZES.map((size) => ({
+    ...ICON_SIZES.map((size) => ({
       url: `${BASE_URL}/images/icons/icon-${size}x${size}.png`,
       sizes: `${size}x${size}`,
       rel: 'icon',

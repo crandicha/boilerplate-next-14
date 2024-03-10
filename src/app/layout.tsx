@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import ReactQueryClientProvider from 'components/ReactQueryClientProvider'
 
 import { BASE_URL } from 'configs/env'
-import { ICON_SIZES } from 'configs/icon'
+import { ICON_SIZES, OG_IMAGE_SIZE } from 'configs/icon'
 
 import './globals.scss'
 
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
       url: BASE_URL,
       images: [
         {
-          url: `${BASE_URL}/images/icons/icon-192x192.png`,
+          url: `${BASE_URL}/images/icons/icon-${OG_IMAGE_SIZE}x${OG_IMAGE_SIZE}.png`,
           width: 384,
           height: 384,
           alt: 'Boilerplate Next 14',

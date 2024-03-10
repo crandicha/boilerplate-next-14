@@ -59,5 +59,5 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
 8. Start the development server
 
    ```bash
-   pnpm run dev
+   pnpm dev
    ```

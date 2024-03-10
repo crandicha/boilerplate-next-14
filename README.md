@@ -48,7 +48,15 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
      pnpm remove react-query
      ```
 
-6. Start the development server
+6. Configure PWA.
+
+   - If you want to disable it completely, change the `disable` value to `true` in `next.config.js`.
+   - If you want it enabled, modify the `manifest.json` and `images/icons` files in the `public` directory.
+     - You can use [this tool](https://manifest-gen.netlify.app/) to generate the `manifest.json` and `icons` file.
+
+7. Change `favicon.ico` on the `src/app/` directory (either using the generated `icons-144x144.png` or use your own).
+
+8. Start the development server
 
    ```bash
    pnpm run dev

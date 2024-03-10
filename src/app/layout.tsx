@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import ReactQueryClientProvider from 'components/ReactQueryClientProvider'
 
 import { BASE_URL } from 'configs/env'
-import { ICON_SIZES, OG_IMAGE_SIZE } from 'configs/icon'
+import { ICON_SIZES, MASKABLE_ICON_SIZE, OG_IMAGE_SIZE } from 'configs/icon'
 
 import './globals.scss'
 
@@ -35,6 +35,7 @@ export const metadata: Metadata = {
       sizes: `${size}x${size}`,
       rel: 'icon',
       type: 'image/png',
+      ...(size === MASKABLE_ICON_SIZE && { purpose: 'maskable' }),
     })),
   ],
   robots: 'index, follow',

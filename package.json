@@ -16,7 +16,7 @@
     "type-check": "tsc --noEmit --pretty",
     "check-all": "pnpm lint && pnpm type-check && pnpm format",
     "prepare": "husky",
-    "reinit": "rm -rf .git && git init && git add all && git commit -m 'Initial commit'",
+    "reinit": "rm -rf .git && git init && git add --all && git commit -m 'Initial commit'",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"

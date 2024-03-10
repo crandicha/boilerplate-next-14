@@ -22,13 +22,19 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
    pnpm reinit
    ```
 
-4. Install dependencies
+4. Copy `.env.sample` to `.env.local` and modify the `.env.*` values based on your needs.
+
+   ```bash
+   cp .env.sample .env.local
+   ```
+
+5. Install dependencies
 
    ```bash
    pnpm install
    ```
 
-5. Check optional packages (remove based on usage)
+6. Check optional packages (remove based on usage)
 
    - TailwindCSS (CSS framework) (automatically installed by create-next-app)
 
@@ -48,16 +54,16 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
      pnpm remove react-query
      ```
 
-6. Configure PWA.
+7. Configure PWA.
 
    - If you want to disable it completely, change the `disable` value to `true` in `next.config.js`.
    - If you want it enabled, modify the `manifest.json` and `images/icons` files in the `public` directory.
      - You can use [this tool](https://manifest-gen.netlify.app/) to generate the `manifest.json` and `icons` file.
 
-7. Change `favicon.ico` on the `src/app/` directory (either using the generated `icons-144x144.png` or use your own).
+8. Change `favicon.ico` on the `src/app/` directory (either using the generated `icons-144x144.png` or use your own).
 
-8. Start the development server
+9. Start the development server
 
-   ```bash
-   pnpm dev
-   ```
+```bash
+pnpm dev
+```

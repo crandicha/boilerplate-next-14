@@ -49,7 +49,7 @@ export const metadata: Metadata = {
       url: BASE_URL,
       images: [
         {
-          url: `${BASE_URL}/images/icons/icon-384x384.png`,
+          url: `${BASE_URL}/images/icons/icon-192x192.png`,
           width: 384,
           height: 384,
           alt: 'Boilerplate Next 14',

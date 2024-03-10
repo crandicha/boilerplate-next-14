@@ -60,9 +60,7 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
    - If you want it enabled, modify the `manifest.json` and `images/icons` files in the `public` directory.
      - You can use [this tool](https://manifest-gen.netlify.app/) to generate the `manifest.json` and `icons` file.
 
-8. Change `favicon.ico` on the `src/app/` directory (either using the generated `icons-144x144.png` or use your own).
-
-9. Start the development server
+8. Start the development server
 
 ```bash
 pnpm dev

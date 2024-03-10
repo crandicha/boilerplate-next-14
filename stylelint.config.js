@@ -15,5 +15,6 @@ module.exports = {
           'Selector should be written in snake_case (e.g. my_class_name)',
       },
     ],
+    'scss/at-rule-no-unknown': [true, { ignoreAtRules: ['tailwind'] }],
   },
 }

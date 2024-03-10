@@ -1,6 +1,8 @@
 {
   "name": "boilerplate-next-14",
-  "version": "0.1.0",
+  "author": "Charles Randicha Gunawan Santoso",
+  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",

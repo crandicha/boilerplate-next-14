@@ -6,7 +6,8 @@
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:prettier/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "plugins": [
     "@typescript-eslint/eslint-plugin",
@@ -60,7 +61,7 @@
       }
     ],
     "import/no-named-as-default": "error",
-    "import/exports-last": "warn",
+    "import/exports-last": "off",
     "import/newline-after-import": "warn",
     "import/no-duplicates": "warn"
   }

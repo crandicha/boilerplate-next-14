@@ -39,8 +39,11 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
    - TailwindCSS (CSS framework) (automatically installed by create-next-app)
 
      ```bash
-     pnpm remove tailwindcss
+     pnpm remove tailwindcss eslint-plugin-tailwindcss &
+     rm -rf tailwind.config.ts
      ```
+
+     also remove `plugin:tailwindcss/recommended` from `.eslintrc.json`
 
    - Zustand (state management)
 

@@ -27,6 +27,7 @@
     "clsx": "^2.1.0",
     "eslint-plugin-import": "^2.29.1",
     "next": "14.0.4",
+    "next-easy-middlewares": "^1.0.9",
     "query-string": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",

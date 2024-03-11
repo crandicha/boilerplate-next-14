@@ -42,3 +42,5 @@ sw.*
 workbox-*
 swe-worker-*
 
+# generated sitemap
+sitemap*

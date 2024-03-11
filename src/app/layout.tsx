@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 
-import ReactQueryClientProvider from 'components/ReactQueryClientProvider'
+import ReactQueryClientProvider from 'components/Providers/ReactQueryClientProvider'
 
 import { BASE_URL } from 'configs/env'
 import { ICON_SIZES, MASKABLE_ICON_SIZE, OG_IMAGE_SIZE } from 'configs/icon'

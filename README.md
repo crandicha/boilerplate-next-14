@@ -51,13 +51,19 @@ This is a Next 14 boilerplate project, intended to be used as a starting point f
      pnpm remove zustand
      ```
 
-   - React Query (data fetching) (not recommended to remove)
+   - React Query (data fetching and caching)
 
      ```bash
      pnpm remove react-query
      ```
 
-7. Configure PWA.
+   - Next Sitemap (SEO)
+
+     ```bash
+     pnpm remove next-sitemap & rm -rf next-sitemap.config.js
+     ```
+
+7. Configure PWA
 
    - If you want to disable it completely, change the `disable` value to `true` in `next.config.js`.
    - If you want it enabled, modify the `manifest.json` and `images/icons` files in the `public` directory.

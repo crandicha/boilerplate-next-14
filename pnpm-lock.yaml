@@ -139,9 +139,6 @@ devDependencies:
   stylelint:
     specifier: ^14.16.1
     version: 14.16.1
-  stylelint-config-prettier:
-    specifier: ^9.0.5
-    version: 9.0.5(stylelint@14.16.1)
   stylelint-config-standard-scss:
     specifier: ^3.0.0
     version: 3.0.0(postcss@8.4.32)(stylelint@14.16.1)
@@ -7595,16 +7592,6 @@ packages:
       client-only: 0.0.1
       react: 18.2.0
     dev: false
-
-  /stylelint-config-prettier@9.0.5(stylelint@14.16.1):
-    resolution: {integrity: sha512-U44lELgLZhbAD/xy/vncZ2Pq8sh2TnpiPvo38Ifg9+zeioR+LAkHu0i6YORIOxFafZoVg0xqQwex6e6F25S5XA==}
-    engines: {node: '>= 12'}
-    hasBin: true
-    peerDependencies:
-      stylelint: '>= 11.x < 15'
-    dependencies:
-      stylelint: 14.16.1
-    dev: true
 
   /stylelint-config-recommended-scss@5.0.2(postcss@8.4.32)(stylelint@14.16.1):
     resolution: {integrity: sha512-b14BSZjcwW0hqbzm9b0S/ScN2+3CO3O4vcMNOw2KGf8lfVSwJ4p5TbNEXKwKl1+0FMtgRXZj6DqVUe/7nGnuBg==}
